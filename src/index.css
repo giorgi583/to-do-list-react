@@ -11,7 +11,7 @@
 h1 {
   font-size: 3rem;
   color: #437700;
-width: max-content;
+  width: max-content;
 }
 h1 span {
   color: rgb(14, 192, 168);
@@ -45,10 +45,10 @@ input:focus {
   box-shadow: 0 0 0 2px rgba(29, 126, 42, 0.849);
 }
 .tasks {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 20px;
-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
 }
 .task {
   background: linear-gradient(120deg, rgb(188, 255, 200), rgb(200, 255, 200));
@@ -66,7 +66,7 @@ width: 100%;
   color: #223f20d5;
 }
 .savebtn {
-  background-color: #c6ffc2d5;
+  background: linear-gradient(30deg, #c1ffc1, #e4ffeb);
   color: #288b00;
   font-size: 1rem;
   padding: 5px;
@@ -84,9 +84,9 @@ li {
   list-style: none;
 }
 .addbtn {
-position: absolute;
+  position: absolute;
   top: 1px;
-  right: 148px;
+  right: 147px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border: none;
@@ -97,7 +97,7 @@ position: absolute;
   transition: 0.3s ease;
 }
 .addbtn:hover {
-transform: scale(1.1);
+  transform: scale(1.1);
 }
 button:active {
   transform: scale(0.95);

@@ -66,8 +66,8 @@ const Todo = () => {
                 onBlur={() => {
                   dispatch(editTodo({ id: todo.id, text }));
                 }}
-                contentEditable
-                suppressContentEditableWarning={todo.completed ? false : true}
+                contentEditable={todo.completed ? false : true}
+                suppressContentEditableWarning={true}
               >
                 {todo.text}
               </p>
